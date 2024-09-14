@@ -1,0 +1,150 @@
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    gap: 30px;
+    padding: 30px;
+    border-bottom: 2px solid black;
+    background-color: lightgray;
+}
+#l3-zeromargem{
+    margin-bottom: 0px;
+}
+header a{
+    text-decoration-color: black;
+}
+.botao{
+    padding: 20px 30px;
+    background-color: darkgray;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 500px;
+}
+#l3-conteudo{
+    flex-direction: row;
+    gap: 30px;
+}
+.cima{
+    display: flex;
+    flex: 2;
+    width: auto;
+    height: auto;
+}
+.rodape{
+    display: flex;
+    flex: 1;
+    width: auto;
+    height: auto;
+    background-color: #777777;
+}
+.lado{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    background-color: green;
+}
+.menu{
+    display: flex;
+    flex: 1;
+    background-color: #888888;
+}
+.cabecalho{
+    display: flex;
+    background-color: #bbbbbb;
+    flex: 1;
+}
+.artigos{
+    display: flex;
+    flex: 1;
+}
+.artigo{
+    display: flex;
+    flex: 1;
+    background-color: #aaaaaa;
+}
+.f{
+    background-color: #999999;
+}
+#l2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.item{
+    width: 200px;
+}
+.h20vh{
+    height: 20vh;
+    background-color: #aaaaaa;
+}
+.b{
+    background-color: #777777;
+}
+.h30vh{
+    height: 30vh;
+    background-color: #777777;
+}
+.h15vh{
+    height: 15vh;
+    background-color: #aaaaaa;
+}
+.h35vh{
+    height: 35vh;
+    background-color: #777777;
+}
+.h50vh{
+    height: 50vh;
+    background-color: #aaaaaa;
+}
+.menus{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 25px;
+    background-color: #777777;
+    margin-bottom: 50px;
+}
+.btn-menu{
+    padding: 15px;
+    background-color: #aaaaaa;
+}
+.cartao{
+    width: 225px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.titulo-cartao{
+    display: flex;
+    flex: 1;
+    background-color: #777777;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cartao-conteudo{
+    display: flex;
+    flex: 5;
+    background-color: #bbbbbb;
+}
+.l3-rodape{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 25px;
+    background-color: #777777;
+    margin-top: 50px;
+}
+.m{
+    padding-right: 400px;
+}
